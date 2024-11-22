@@ -1,0 +1,15 @@
+:root {
+    --bg-color: #010413;
+    --main-color: #fefefe;
+    --accent-color: #73531f;
+    --hover-color: rgba(0, 122, 47, 0.4);
+  
+    --font: 'IBM Plex mono', monospace;
+    --size: 18px;
+  
+    --header-gap: ;
+    --link-gap: 10px;
+    --text-gap: 40px;
+    --section-between: 50px;
+    --section-grid-gap: 20px;
+  }
