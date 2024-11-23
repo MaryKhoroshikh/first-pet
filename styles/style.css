@@ -107,6 +107,16 @@
     inline-size: 100%;
 }
 
+.img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-description {
+    text-align: center;
+}
+
 .button {
     cursor: pointer;
 }
