@@ -66,6 +66,7 @@
     color: var(--accent-color);
     position: absolute;
     top: 5px;
+    transform: rotate(45deg);
 }
 
 .header__menu-item:first-of-type::after {
@@ -89,6 +90,43 @@
 
 .section__text {
     margin-top: 20px;
+}
+
+.section-examples__container {
+    inline-size: 60%;
+    aspect-ratio: 4 / 3;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    inline-size: 100%;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.back {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right: 20px solid var(--accent-color);
+    transform: scaleY(3);
+    background-color: transparent;
+}
+
+.forward {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-left: 20px solid var(--accent-color);
+    transform: scaleY(3);
+    background-color: transparent;
 }
 
 .footer__title {
